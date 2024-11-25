@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./Css/dashboard.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="navbar">
+
+        <div class="logo">
+            <img src="./Assest/Images/complete logo.png" alt="logo">
+        </div>
+
+        <div class="navlink">
+            <a href="./links.html">Link</a>
+            <a href="./profile.html">Profile details</a>
+            <a href="./previewlink.html">Preview Link</a>
+        </div>
+        
+        <div class="menu">
+            <span class="material-symbols-outlined">
+                menu
+            </span>
+        </div>
+    </div>
+
+    <main>
+        <div class="wrapper">
+             <div class="stats">
+                <div class="view">
+                    <h1>Views</h1>
+                    <p>3,000</p>
+                    <small>Last 3 months</small>
+                </div>
+                <div class="view">
+                    <h1>Unique views</h1>
+                    <p>3,000</p>
+                    <small>Last 3 months</small>
+                </div>
+                <div class="view">
+                    <h1>Clicks</h1>
+                    <p>3,000</p>
+                    <small>Last 3 months</small>
+                </div>
+                <div class="view">
+                    <h1>Links created</h1>
+                    <p>3,000</p>
+                    <small>Last 3 months</small>
+                </div>
+            </div> 
+            <div class="meta">
+                <h1>Analytics</h1>
+                <hr>
+            </div>
+            <div class="performance">
+                <p>Link Performance by Date</p>
+            </div>
+            
+            <div class="graph">
+                <div class="mychart">
+                  
+                        <canvas id="myChart"></canvas>
+                    
+                </div>
+                <div class="mychart">
+                    
+                        <canvas id="myClicks"></canvas>
+                  
+                </div>
+                <div class="mychart">
+                   
+                        <canvas id="myViews"></canvas>
+                    
+                </div>
+            </div>
+    
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="./js/dashboard.js"></script>
+</body>
+
+</html>

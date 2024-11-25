@@ -1,0 +1,198 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #EFE9FE;
+    
+
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #bfc0c0;
+    width: 100%;
+
+}
+
+.logo img {
+    margin-left: 12px;
+    margin-top: 10px;
+
+}
+
+.navlink a {
+    text-decoration: none;
+    color: #373B3B;
+    display: inline-block;
+    margin: 0 30px;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 700;
+    cursor: pointer;
+}
+ .navlink a:hover {
+        color: #7d8888;
+        border-bottom: 1px solid #cbcacf;
+    } 
+.menu {
+    display: none;
+}
+
+.wrapper {
+    padding-top: 30px;
+    padding-bottom: 60px;
+    width: 100%;
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px 10px;
+    width: 100%;
+
+}
+
+.stats h1 {
+    color: #474B4B;
+    font-weight: 700;
+    line-height: 24px;
+    font-size: 18px;
+}
+
+.stats p {
+    color: #939595;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.stats small {
+    color: #939595;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.view {
+    background-color: #FFFFFF;
+    border: 1px solid #e0e6e6;
+    width: 100%;
+    border-radius: 8px;
+    padding: 14px 16px;
+}
+
+.meta {
+    display: flex;
+    padding: 10px 10px;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.meta h1 {
+    font-size: 22px;
+    color: #000000;
+    font-weight: 700;
+    line-height: 33px;
+}
+
+.meta hr {
+    width: 100%;
+    border-left: none;
+    color: #C9B5FD;
+}
+.performance p {
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 35px;
+}
+.graph {
+    padding-left: 10px;
+    padding-right: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+}
+
+
+
+.mychart {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    padding: 8px 4px;
+    width: 100%;
+}
+
+.mychart canvas {
+    width: 100%;
+    
+}
+@media only screen and (max-width: 983px){
+    .graph {
+        padding-left: 10px;
+        padding-right: 10px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+
+}
+@media only screen and (max-width: 840px){
+    .graph {
+        padding-left: 10px;
+        padding-right: 10px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    
+}
+@media only screen and (max-width: 768px) {
+    .stats {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 15px 10px;
+
+    }
+}
+
+@media only screen and (max-width: 612px) {
+    main {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .navlink a {
+        display: none;
+
+    }
+
+    .navbar {
+        width: 100%;
+    }
+
+    .menu {
+        display: flex;
+        margin-right: 10px;
+    }
+
+    .stats {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        padding: 20px 10px;
+
+    }
+
+}

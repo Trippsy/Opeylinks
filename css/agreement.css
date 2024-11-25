@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E0D6FE;
+    font-family: "Poppins", sans-serif;
+    overflow: hidden;
+}
+
+.navbar {
+    padding: 24px 24px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.side-btn button {
+    background-color: #6A23BC;
+    width: 140px;
+    height: 32px;
+    color: #fff;
+    border-radius: 100px;
+    border: none;
+}
+.side-btn button:hover {
+    border: 1px solid #b78ee7;
+    background-color: #fff;
+    color: #6A23BC;
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper {
+   width: 100%;
+    margin-top: 110px;
+    max-width: 508px;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.wrapper h1 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 20px;
+}
+
+.checkbox p {
+    color: #5F6363;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.button a {
+    color: #fff;
+    border-radius: 100px;
+    background-color: #6A23BC;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 6px 18px;
+    font-size: 16px;
+}
+.button a:hover {
+    border: 2px solid #ac7de3;
+    background-color: #fff;
+    color: #6A23BC;
+}
+/* MEDIA QUERY */
+
+@media only screen and (max-width: 772px){
+  main {
+    padding: 0 24px;
+  }
+    .checkbox p {
+        color: #5F6363;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 27px;
+    }
+    .button a {
+        color: #fff;
+        border-radius: 100px;
+        background-color: #6A23BC;
+        text-decoration: none;
+        font-weight: 700;
+        line-height: 24px;
+        padding: 4px 16px;
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 602px){
+  
+    .checkbox {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (max-width: 440px){
+    
+   
+    .side-btn button {
+        background-color: #6A23BC;
+        width: 100px;
+        height: 26px;
+        color: #fff;
+        border-radius: 100px;
+        border: none;
+    }
+}
