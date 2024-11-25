@@ -11,11 +11,11 @@ body {
 
 .navbar {
     width: 100%;
-   /* padding: 32px 24px 0; */
-   padding-top: 32px;
-   padding-bottom: 35px;
-   padding-left: 24px;
-   padding-right: 24px;
+    /* padding: 32px 24px 0; */
+    padding-top: 32px;
+    padding-bottom: 35px;
+    padding-left: 24px;
+    padding-right: 24px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -31,6 +31,7 @@ body {
     padding: 6px 30px;
     text-decoration: none;
 }
+
 .side-btn a:hover {
     background-color: #F6F6F6;
     border: 2px solid #a976e5;
@@ -68,7 +69,8 @@ form h1 {
     line-height: 27px;
 
 }
-form button  {
+
+form button {
     color: #fff;
     padding-top: 4px;
     padding-bottom: 4px;
@@ -77,19 +79,22 @@ form button  {
     /* padding-left: 40px;
     padding-right: 40px; */
     width: 100%;
-    
+
 }
+
 form button:hover {
     background-color: #F6F6F6;
     color: #6A23BC;
     border: 2px solid #e2daf8;
 }
+
 span {
     padding-left: 20px;
     color: red;
     font-size: 10px;
     font-weight: 600;
 }
+
 form .buttun {
     display: flex;
     justify-content: center;
@@ -101,6 +106,7 @@ form .buttun {
     margin-bottom: 10px;
     text-decoration: none;
 }
+
 form a {
     display: flex;
     justify-content: center;
@@ -108,8 +114,9 @@ form a {
     text-decoration: none;
 
 }
+
 form a:hover {
-    color: #a976e5; 
+    color: #a976e5;
 }
 
 form p {
@@ -179,6 +186,7 @@ form input {
     color: #000000;
     margin-top: 15px;
 }
+
 .google {
     margin-top: 25px;
     display: flex;
@@ -207,11 +215,7 @@ form input {
 }
 
 /* MEDIA QUERY */
-
-
 @media only screen and (max-width: 850px) {
-   
-
     form h1 {
         font-size: 16px;
         font-weight: 600;
@@ -232,15 +236,17 @@ form input {
     main {
         padding: 0 24px;
     }
+
     .navbar {
         width: 100%;
-       /* padding: 32px 24px 0; */
-       padding-top: 24px;
-       padding-bottom: 50px;
+        /* padding: 32px 24px 0; */
+        padding-top: 24px;
+        padding-bottom: 50px;
         display: flex;
         align-items: center;
         justify-content: space-between;
     }
+
     form p {
         color: #787B7B;
         font-weight: 700;
@@ -281,9 +287,6 @@ form h1 {
 }
 
 @media only screen and (max-width: 480px) {
-   
-
-   
     form h1 {
         font-size: 12px;
         font-weight: 600;
@@ -310,10 +313,10 @@ form h1 {
         margin-top: 10px;
         margin-bottom: 10px;
         text-decoration: none;
-    } 
-  
+    }
 
-    
+
+
 
     .placeholder {
         background-color: #F6F6F6;
@@ -403,8 +406,6 @@ form h1 {
 }
 
 @media only screen and (max-width: 407px) {
-   
-
     form a {
         display: flex;
         justify-content: center;
