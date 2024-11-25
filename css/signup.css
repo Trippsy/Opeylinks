@@ -214,4 +214,12 @@ form input {
         justify-content: center;
         margin-top: 20px;
     }
+    .navbar {
+        /* padding: 24px 24px 0; */
+        padding-top: 24px;
+        padding-bottom: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 }
