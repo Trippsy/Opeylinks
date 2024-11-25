@@ -179,9 +179,6 @@ form input {
     color: #000000;
     margin-top: 15px;
 }
-
-.box {}
-
 .google {
     margin-top: 25px;
     display: flex;
@@ -375,8 +372,6 @@ form h1 {
         color: #000000;
         margin-top: 5px;
     }
-
-    .box {}
 
     .google {
         margin-top: 10px;
