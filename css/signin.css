@@ -12,6 +12,8 @@ body {
 
 .navbar {
     padding: 24px 24px 0;
+    padding-top: 24px;
+    padding-bottom: 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -20,13 +22,15 @@ body {
 .side-btn a {
     background-color: #6A23BC;
     width: 140px;
-text-decoration: none;
-padding: 6px 26px;
+    text-decoration: none;
+    padding: 6px 26px;
     height: 32px;
     color: #fff;
     border-radius: 100px;
     border: none;
+    
 }
+
 .side-btn a:hover {
     border: 2px solid #bf8cfa;
     color: #6A23BC;
@@ -59,7 +63,8 @@ form a {
     justify-content: center;
     text-decoration: none;
 }
-form  a:hover{
+
+form a:hover {
     color: #272a2a;
 }
 
@@ -100,13 +105,15 @@ form .button :hover {
     background-color: #fff;
     border-radius: 100px;
 }
+
 span {
     padding-left: 20px;
     color: red;
     font-size: 10px;
     font-weight: 600;
 }
-button  {
+
+button {
     color: #fff;
     padding-top: 4px;
     padding-bottom: 4px;
@@ -147,7 +154,7 @@ form input {
     /* margin-top: 25px; */
     outline: none;
     background-color: #F6F6F6;
-    
+
 }
 
 .google {
@@ -180,6 +187,7 @@ form input {
     font-weight: 700;
     font-size: 16px;
 }
+
 .link a:hover {
     color: #747878;
 }
@@ -214,10 +222,11 @@ form input {
         justify-content: center;
         margin-top: 20px;
     }
+
     .navbar {
         /* padding: 24px 24px 0; */
         padding-top: 24px;
-        padding-bottom: 40px;
+        padding-bottom: 50px;
         display: flex;
         align-items: center;
         justify-content: space-between;

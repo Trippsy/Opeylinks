@@ -11,7 +11,11 @@ body {
 
 .navbar {
     width: 100%;
-   padding: 32px 24px 0;
+   /* padding: 32px 24px 0; */
+   padding-top: 32px;
+   padding-bottom: 35px;
+   padding-left: 24px;
+   padding-right: 24px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -230,6 +234,15 @@ form input {
 @media only screen and (max-width: 720px) {
     main {
         padding: 0 24px;
+    }
+    .navbar {
+        width: 100%;
+       /* padding: 32px 24px 0; */
+       padding-top: 24px;
+       padding-bottom: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
     form p {
         color: #787B7B;
