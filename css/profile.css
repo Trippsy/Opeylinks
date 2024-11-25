@@ -75,7 +75,6 @@ main {
 
 }
 .wrapper .mobilepreview {
-    
     background-image: url(../Assest/Images/Iphone.svg);
     width: 100%;
     max-width: 430px;
@@ -250,5 +249,19 @@ main {
     }
     .navlink {
         display: none;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .wrapper {
+        background-color: #FFFFFF;
+        padding: 10px 0;
+    
+    }
+    .wrapper .mobilepreview {
+        background-image: url(../Assest/Images/Iphone.svg);
+        width: 100%;
+        max-width: 430px;
+        height: 972px;
+        margin-right: 40px;
     }
 }
