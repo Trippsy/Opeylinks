@@ -1,70 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-        <div class="navbar">
-            <div class="logo">
-                <img src="./Assest/Images/complete logo.png" alt="logo">
-            </div>
-            <div class="side-btn">
-                <a href="signin.html">Login</a>
-            </div>
+    <div class="navbar">
+        <div class="logo">
+            <img src="./Assest/Images/complete logo.png" alt="logo">
         </div>
-        <main>
-            <form>
-                <h1>Create Account to get started on opeylink</h1>
-                <div class="email">
-                    <input type="text" name="email" placeholder="Email-Address" /> 
+        <div class="side-btn">
+            <a href="signin.html">Login</a>
+        </div>
+    </div>
+    <main>
+        <form>
+            <h1>Create Account to get started on opeylink</h1>
+            <div class="email">
+                <input type="text" name="email" placeholder="Email-Address" />
+            </div>
+            <span class="error"></span>
+            <div class="username">
+                <input type="text" placeholder="Username" name="username" />
+            </div>
+            <span class="usererror"></span>
+            <div class="placeholder2">
+                <input type="text" placeholder="Password" name="password" />
+            </div>
+            <span class="passworderror"></span>
+            <div class="password1">
+                <input type="text" placeholder="Confirm Password" name="confirmpassword" />
+            </div>
+            <div class="check">
+                <div class="box">
+                    <input type="checkbox" name="agree" value="agreed" />
                 </div>
-                <span class="error"></span>
-                <div class="username">
-                    <input type="text" placeholder="Username" name="username" /> 
-                </div>
-                <span class="usererror"></span>
-                <div class="placeholder2">
-                    <input type="text" placeholder="Password" name="password" /> 
-                </div>
-                <span class="passworderror"></span>
-                <div class="password1">
-                    <input type="text" placeholder="Confirm Password" name="confirmpassword" />
-                </div>
-                <div class="check">
-                    <div class="box">
-                        <input type="checkbox" name="agree" value="agreed" />
-                    </div>
-                    <p>
-                        By siging you agree to terms and conditions
-                    </p>
-                </div>
-                <!-- <div class="button">
+                <p>
+                    By siging you agree to terms and conditions
+                </p>
+            </div>
+            <!-- <div class="button">
                     <a href="#">Create Account</a>
                 </div> -->
-              <div class="buttun">
+            <div class="buttun">
                 <button name="submit">Create Account</button>
-              </div>
-                <a href="verification.html">Forget Password</a>
-                <p>Or sign up with Google or Facebook</p>
-                <div class="google">
-                    <img src="./Assest/Images/google_symbol.svg.png" alt="Google">
-                    <strong>Get started with Google</strong>
-                </div>
-                <div class="facebook">
-                    <img src="./Assest/Images/facebook_symbol.svg.png" alt="Facebook">
-                    <strong>Get started with Google</strong>
-                </div>
-                <div class="link">
-                    <a href="signup.html">Already have an account? Log In</a>
-                </div>
-            </form>
-        </main>
-        <script src="./js/app.js"></script>
+            </div>
+            <a href="verification.html">Forget Password</a>
+            <p>Or sign up with Google or Facebook</p>
+            <div class="google">
+                <img src="./Assest/Images/google_symbol.svg.png" alt="Google">
+                <strong>Get started with Google</strong>
+            </div>
+            <div class="facebook">
+                <img src="./Assest/Images/facebook_symbol.svg.png" alt="Facebook">
+                <strong>Get started with Google</strong>
+            </div>
+            <div class="link">
+                <a href="signup.html">Already have an account? Log In</a>
+            </div>
+        </form>
+    </main>
+    <script src="./js/app.js"></script>
 </body>
+
 </html>
