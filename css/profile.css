@@ -151,7 +151,7 @@ main {
 }
 .left {
     margin-left: 10px;
-    padding: 10px 12px;
+    padding: 10px 10px;
     background-color: #FFFFFF;
 }
 form input {
@@ -237,9 +237,15 @@ button  {
 /* MEDIA QUERY */
 @media only screen and (max-width: 980px) {
 main {
-    padding: 10px 20px;
+    padding: 10px 10px;
     display: grid;
     grid-template-columns: 1fr;
+}
+.left {
+    margin-top: 10px;
+    margin-left: 0;
+    padding: 10px 10px;
+    background-color: #FFFFFF;
 }
 }
 @media only screen and (max-width: 730px) {
@@ -249,6 +255,10 @@ main {
     }
     .navlink {
         display: none;
+    }
+    .navbar {
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
 @media only screen and (max-width: 500px) {

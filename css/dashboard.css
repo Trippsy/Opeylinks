@@ -166,13 +166,14 @@ body {
         padding: 15px 10px;
 
     }
+    main {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
 
 @media only screen and (max-width: 612px) {
-    main {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
+   
     .navlink a {
         display: none;
 

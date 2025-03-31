@@ -60,7 +60,6 @@ form {
     margin-bottom: 50px;
 
 }
-
 form h1 {
     display: flex;
     justify-content: center;
@@ -145,7 +144,6 @@ form p {
     outline: none;
     background-color: #F6F6F6;
 }
-
 .placeholder2 {
     background-color: #F6F6F6;
     border-radius: 100px;
@@ -172,7 +170,7 @@ form input {
     padding-left: 14px;
     outline: none;
     background-color: #F6F6F6;
-
+    border-radius: 100px;
 }
 
 .check {
@@ -287,6 +285,15 @@ form h1 {
 }
 
 @media only screen and (max-width: 480px) {
+    main {
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+    .navbar {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+   
     form h1 {
         font-size: 12px;
         font-weight: 600;

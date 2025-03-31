@@ -1,3 +1,24 @@
+const menu = document.querySelector('#menu')
+const menuBar = document.querySelector('#menu-bar')
+const dropDown = document.querySelector('.dropdown')
+const dropUp = document.querySelector('.dropup')
+menu.addEventListener('click', function () {
+  let Display = menuBar.style.display
+  Display = 'none'
+  if (menuBar.style.display === 'none') {
+    menuBar.style.display = 'block'
+    dropDown.style.display = "none"
+    dropUp.style.display = "block"
+    console.log(Display);
+
+  } else {
+    menuBar.style.display = 'none'
+     dropDown.style.display = "block"
+    dropUp.style.display = "none"
+    console.log(Display);
+  }
+})
+
 const email = document.querySelector('email');
 const form = document.querySelector('form');
 const errorElement = document.querySelector('.error')

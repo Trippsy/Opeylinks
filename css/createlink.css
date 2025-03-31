@@ -98,7 +98,7 @@ main h1 {
 
 .left {
     margin-left: 10px;
-    padding: 10px 12px;
+    padding: 10px 10px;
     background-color: #FFFFFF;
 
 }
@@ -273,7 +273,7 @@ main h1 {
 }
 @media only screen and (max-width: 810px){
     main {
-        padding: 10px 20px;
+        padding: 10px 10px;
         display: grid;
         grid-template-columns: 1fr;
     }
@@ -283,4 +283,9 @@ main h1 {
     .menu {
         display: flex;
     }
+    .left {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+ 
 }

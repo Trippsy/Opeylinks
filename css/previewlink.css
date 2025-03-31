@@ -117,23 +117,6 @@ body {
     color: #ffff;
 }
 
-/* .btn {
-    display: flex;
-    flex-direction: column;
-   
-    
-}
-.btn a {
-    background-color: #1877F2;
-    border-radius: 5px;
-    padding-right: 70px;
-    padding-left: 20px;
-    
-    margin: 10px 40px;
-}
-.facebook {
-    background-color:
-} */
 .btn a {
     text-decoration: none;
     color: #ffff;
